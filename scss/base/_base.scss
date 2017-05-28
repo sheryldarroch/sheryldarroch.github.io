@@ -42,6 +42,9 @@ h3 {
 	display: block;
 	text-align: center;
 	padding: 0 1rem 1rem;
+	@include bp(medium) {
+		font-size: 1.25rem;
+	}
 }
 
 a {
