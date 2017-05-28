@@ -1,0 +1,48 @@
+/*================== Skills Styles ====================*/
+
+.details {
+	flex-direction: column;
+	justify-content: space-around;
+	@include bp(medium) {
+		flex-direction: row;
+		align-items: stretch;
+	}
+}
+
+.skills {
+	@include bp(medium) {
+		flex-grow: 1;
+	}
+	@include bp(large) {
+		flex-grow: 2;
+	}
+}
+
+.skills-list {
+	list-style: none;
+	list-style-position: inside;
+	margin: 1rem;
+	padding: 0;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	@include bp(medium) {
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 1rem 2rem;
+	}
+	li {
+		padding: 0.313rem;
+		margin: 0.125rem;
+		background-color: $color-primary--md;
+		color: $color-highlight;
+		border-radius: 0.313rem;
+		width: 13rem;
+		text-align: center;
+		@include bp(medium) {
+			background-color: $color-complement;
+		}
+	}
+	li:nth-of-type(odd) {
+		background-color: $color-complement;
+	}
+}
