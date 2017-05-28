@@ -1,7 +1,6 @@
 const navIcon = document.getElementById('nav-icon');
 const navDrop = document.getElementById('nav-drop');
 let gallOver = document.getElementsByClassName('overlay');
-let gallOver2 = document.getElementsByClassName('overlay2');
 let overClose = document.getElementsByClassName('overlay-close');
 const email = document.getElementById('social-email');
 const emailPopup = document.getElementById('email-form');
