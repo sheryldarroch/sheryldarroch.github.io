@@ -71,6 +71,8 @@
 	}
 }
 
+.nav-drop li:hover span,
+.nav-menu li:hover span,
 .nav-drop li:hover a,
 .nav-menu li:hover a {
 	color: $color-highlight;
